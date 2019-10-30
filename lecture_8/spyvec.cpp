@@ -44,7 +44,7 @@ void spyvec(vector <vector<int>> &arr)
             cout<<arr[i][minc]<<" "; 
             tne--;     
         }
-        minc--;
+        minc++;
     }
 }
 int main()
