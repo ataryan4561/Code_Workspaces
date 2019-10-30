@@ -28,6 +28,7 @@ void exitgame(vector <vector<int>> &arr)
             cout<< r <<","<<(c-1)<<endl;
             break;
         }
+    }
         else if(dir==1)
         {
             r++;
@@ -54,8 +55,7 @@ void exitgame(vector <vector<int>> &arr)
                 cout<<r+1<<","<<c<<endl;
                 break;
             }
-        }    
-    }
+        }  
  }
 }
 int main()
